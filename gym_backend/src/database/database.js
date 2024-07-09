@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Cliente = require('./Cliente'); // Importa el modelo Cliente definido en Cliente.js
+const Cliente = require('./models/Cliente'); // Importa el modelo Cliente definido en Cliente.js
 const URI = 'mongodb://127.0.0.1:27017/gym'; // URI de tu base de datos MongoDB
 
 mongoose.connect(URI)

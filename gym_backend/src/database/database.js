@@ -30,7 +30,8 @@
 
 const mongoose = require("mongoose");
 
-const URI = "mongodb://127.0.0.1/gym";
+const URI = "mongodb+srv://masjulianf:6AxIzQubRfEAr5qX@gym.5axf8sj.mongodb.net/?retryWrites=true&w=majority&appName=Gym";
+            
 
 mongoose
     .connect(URI)

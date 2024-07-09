@@ -1,0 +1,59 @@
+.pagination {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-historial {
+    justify-content: center;
+}
+
+.pagination button {
+    color: white;
+}
+
+.icon-td:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.restar:hover i {
+    color: rgb(255, 55, 55);
+}
+
+.sumar:hover i {
+    color: rgb(55, 255, 72);
+}
+
+.pagination button {
+    color: white;
+    background-color: rgba(146, 146, 146, 0.173);
+}
+
+.botones-lista {
+    background-color: rgba(146, 146, 146, 0.309);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botones-lista:hover {
+    background-color: rgba(146, 146, 146, 0.616);
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-checkbox {
+    color: #e3e3e3;
+    margin-left: 10px;
+}
+
+.input-checkbox {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}

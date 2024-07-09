@@ -1,0 +1,80 @@
+.div-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 40% 91%, rgba(179, 35, 35, 0.1) 0%, rgba(179, 35, 35, 0.1) 50%, rgba(210, 210, 210, 0.1) 50%, rgba(210, 210, 210, 0.1) 100%),
+                  radial-gradient(circle at 66% 97%, rgba(35, 35, 35, 0.1) 0%, rgba(35, 35, 35, 0.1) 50%, rgba(77, 77, 77, 0.1) 50%, rgba(77, 77, 77, 0.1) 100%),
+                  radial-gradient(circle at 86% 7%, rgba(102, 0, 0, 0.1) 0%, rgba(102, 0, 0, 0.1) 50%, rgba(179, 179, 179, 0.1) 50%, rgba(179, 179, 179, 0.1) 100%),
+                  radial-gradient(circle at 15% 16%, rgba(128, 0, 0, 0.1) 0%, rgba(128, 0, 0, 0.1) 50%, rgba(210, 77, 77, 0.1) 50%, rgba(210, 77, 77, 0.1) 100%),
+                  radial-gradient(circle at 75% 99%, rgba(210, 77, 77, 0.1) 0%, rgba(210, 77, 77, 0.1) 50%, rgba(64, 64, 64, 0.1) 50%, rgba(64, 64, 64, 0.1) 100%),
+                  linear-gradient(90deg, rgb(128, 0, 0), rgb(51, 51, 51));
+
+}
+
+.div-login img {
+    margin-top: -200px;
+}
+
+.imgLogo {
+    height: 300px;
+}
+
+.input-login {
+    color: black;
+    padding: 15px;
+    font-size: 60px;
+    width: 700px;
+    letter-spacing: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-login:focus {
+    border-color: #db0000;
+    box-shadow: 0 0px 10px rgb(197, 0, 0);
+}
+
+.modal-login {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    padding: 50px;
+    align-items: center;
+}
+
+.modal-login div {
+    font-size: 40px;
+    color: black;
+}
+
+.modal-login div span {
+    color: black;
+    border-bottom: 2px dashed solid;
+}
+
+.verde {
+    background-color: rgb(104, 255, 112);
+}
+
+.rojo {
+    background-color: rgb(255, 104, 104);
+}
+
+.amarillo {
+    background-color: rgb(255, 255, 104);
+}
+
+.titulo-login {
+    font-size: 70px;
+    margin-top: -50px;
+}
+
+.img-login {
+    width: 70px !important;
+}

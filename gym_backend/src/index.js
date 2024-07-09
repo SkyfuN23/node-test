@@ -1,9 +1,9 @@
-// server.js (Archivo principal para iniciar el servidor Socket.IO y la lógica de negocio)
 const { Server } = require('socket.io');
 const socketFunctions = require('./socketFunctions.js');
-const mongoose = require("./database/database.js");
+const mongoose = require("./database/database.js"); // Importa la conexión a MongoDB desde database.js
 
-const io = new Server(3000, {
+const PORT = 3000;
+const io = new Server(PORT, {
     cors: {
         origin: '*',
         methods: ['GET', 'POST'],
@@ -12,7 +12,7 @@ const io = new Server(3000, {
 
 io.on('connection', (socket) => {
     console.log('New client connected');
-    socketFunctions(io, socket);
+    socketFunctions(io, socket); // Lógica de manejo de sockets
 });
 
-console.log('Socket.io server running on port 3000');
+console.log(`Socket.io server running on port ${PORT}`);

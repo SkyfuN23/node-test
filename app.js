@@ -18,7 +18,7 @@ app.get('/info', (req, res) => {
   });
 });
 
-// Iniciar el servidor
-app.listen(port, () => {
+// Iniciar el servidor para escuchar en todas las interfaces
+app.listen(port, '0.0.0.0', () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
